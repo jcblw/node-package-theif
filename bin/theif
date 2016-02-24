@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+var argv = process.argv.slice(2)
+var moduleName = argv[0]
+var targetPath = argv[1]
+var theif = require('../')
+
+if (!moduleName) {
+    console.error('Module name is required')
+    process.exit(1)
+}
+
+if (!targetPath) {
+    console.error('Target path is required')
+    process.exit(1)
+}
+
+theif.start(moduleName, targetPath, function (err, module) {
+    if (err) {
+        console.error(err)
+        process.exit(1)
+        return
+    }
+    console.log(module.name + ' at ' + module.version + ' taken from ' + targetPath)
+    process.exit(0)
+})

@@ -1,0 +1,30 @@
+{
+  "name": "module-theif",
+  "version": "1.0.0",
+  "description": "a module to take modules from another project rather then reinstalling them",
+  "main": "index.js",
+  "bin": {
+    "theif": "bin/theif"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcblw/module-theif.git"
+  },
+  "keywords": [
+    "module",
+    "theif",
+    "offline",
+    "symlink"
+  ],
+  "author": "Jacob Lowe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcblw/module-theif/issues"
+  },
+  "homepage": "https://github.com/jcblw/module-theif#readme"
+}
