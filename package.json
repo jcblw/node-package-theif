@@ -1,10 +1,10 @@
 {
-  "name": "module-theif",
+  "name": "npt",
   "version": "1.0.0",
   "description": "a module to take modules from another project rather then reinstalling them",
   "main": "index.js",
   "bin": {
-    "theif": "bin/theif"
+    "npt": "bin/theif"
   },
   "dependencies": {},
   "devDependencies": {},
@@ -16,6 +16,9 @@
     "url": "git+https://github.com/jcblw/module-theif.git"
   },
   "keywords": [
+    "node",
+    "package",
+    "theif",
     "module",
     "theif",
     "offline",
