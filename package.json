@@ -1,5 +1,5 @@
 {
-  "name": "npt",
+  "name": "node-package-theif",
   "version": "1.0.0",
   "description": "a module to take modules from another project rather then reinstalling them",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jcblw/module-theif.git"
+    "url": "git+https://github.com/jcblw/node-package-theif.git"
   },
   "keywords": [
     "node",
@@ -27,7 +27,7 @@
   "author": "Jacob Lowe",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jcblw/module-theif/issues"
+    "url": "https://github.com/jcblw/node-package-theif/issues"
   },
-  "homepage": "https://github.com/jcblw/module-theif#readme"
+  "homepage": "https://github.com/jcblw/node-package-theif#readme"
 }
